@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 380px;
+}
+
+.site-header {
+  border-top: 40px solid #ecc9cc;
+  border-bottom: 100px solid #ecc9cc;
+  border-bottom-left-radius: 50%; 
+  border-bottom-right-radius: 50%;
+  background-color: #ecc9cc;
+  text-align: center;
+}
+
+.feefties {
+  background-color: #819464;
+  color: white;
+}
+
+nav {
+  color: #819464;
+  text-decoration: none;
+}
+
+.feefties img {
+  width: 100px;
+  align-items: center;
+}
