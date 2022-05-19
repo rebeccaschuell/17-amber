@@ -4,28 +4,39 @@ html {
 
 body {
   max-width: 380px;
+  margin: auto;
 }
-
 .site-header {
   border-top: 40px solid #ecc9cc;
-  border-bottom: 100px solid #ecc9cc;
-  border-bottom-left-radius: 50%; 
-  border-bottom-right-radius: 50%;
+  border-bottom: 55px solid #ecc9cc;
+  border-bottom-left-radius: 35%; 
+  border-bottom-right-radius: 100%;
   background-color: #ecc9cc;
   text-align: center;
 }
 
-.feefties {
+.fifties {
   background-color: #819464;
   color: white;
 }
 
-nav {
+.fifties nav {
   color: #819464;
   text-decoration: none;
 }
 
-.feefties img {
+.fifties img {
   width: 100px;
   align-items: center;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  padding-bottom: 55px;
+}
+
+.logo {
+  margin: 5px;
 }
