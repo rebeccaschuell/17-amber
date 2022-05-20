@@ -69,3 +69,12 @@ a {
   color: #ecc9cc;
   text-align: center;
 }
+
+.fifties .main-packaging {
+  width: 275px;
+  box-shadow: white;
+  filter: drop-shadow(20px 5px 0 #ecc9cc);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
