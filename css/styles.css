@@ -1,3 +1,24 @@
+@font-face {
+  font-family: "rockabilly";
+  src: url('../fonts/Rockabilly.woff2') format('woff2')
+  url('../fonts/Rockabilly.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "hangier";
+  src: url('../fonts/HangierRegular.woff2') format('woff2')
+  url('../fonts/HangierRegular.woff') format('woff');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "lovadelic";
+  src: url('../fonts/Lovadelic-Regular.woff2') format('woff2')
+  url('../fonts/Lovadelic-Regular.woff') format('woff');
+  font-display: fallback;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,6 +27,12 @@ body {
   max-width: 380px;
   margin: auto;
 }
+
+.fifties {
+  background-color: #819464;
+  color: white;
+}
+
 .site-header {
   border-top: 40px solid #ecc9cc;
   border-bottom: 55px solid #ecc9cc;
@@ -15,9 +42,10 @@ body {
   text-align: center;
 }
 
-.fifties {
-  background-color: #819464;
-  color: white;
+.fifties img {
+  width: 100px;
+  align-items: center;
+  margin: 0;
 }
 
 .fifties nav {
@@ -25,10 +53,8 @@ body {
   text-decoration: none;
 }
 
-.fifties img {
-  width: 100px;
-  align-items: center;
-  margin: 0;
+.logo {
+  margin: 5px;
 }
 
 a {
@@ -37,6 +63,9 @@ a {
   padding-bottom: 55px;
 }
 
-.logo {
-  margin: 5px;
+.fifties h1 {
+  font-family: "rockabilly";
+  font-size: 80px;
+  color: #ecc9cc;
+  text-align: center;
 }
