@@ -26,6 +26,12 @@ html {
 body {
   max-width: 380px;
   margin: auto;
+  text-align: center;
+}
+
+main {
+  margin-left: 38px;
+  margin-right: 38px;
 }
 
 .fifties {
@@ -33,28 +39,26 @@ body {
   color: white;
 }
 
-.site-header {
+.fifties .logo {
+  margin: 5px;
+}
+
+.fifties .site-header {
   border-top: 40px solid #ecc9cc;
   border-bottom: 55px solid #ecc9cc;
   border-bottom-left-radius: 35%; 
   border-bottom-right-radius: 100%;
   background-color: #ecc9cc;
-  text-align: center;
 }
 
 .fifties img {
-  width: 100px;
-  align-items: center;
+  width: 80px;
   margin: 0;
 }
 
 .fifties nav {
   color: #819464;
   text-decoration: none;
-}
-
-.logo {
-  margin: 5px;
 }
 
 a {
@@ -87,7 +91,71 @@ a {
   width: 24px;
 }
 
-.about-us {
+.fifties .about-us {
   background-image: url(../img/50/50_motifs.svg);
   background-size: 380px;
+}
+
+.contact {
+  border-bottom: 26px solid #ecc9cc;
+  border-top: 55px solid #ecc9cc;
+  border-top-left-radius: 65%; 
+  border-top-right-radius: 35%;
+  background-color: #ecc9cc;
+  text-align: center;
+  margin: 0;
+}
+
+.contact img {
+  margin-bottom: 100px;
+}
+
+.contact h2 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: #819464;
+  font-size: 36px;
+}
+
+.contact p {
+  margin: 0;
+  color: #819464;
+  font-size: 8px;
+}
+
+.fifties .logo {
+  width: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-logo {
+  max-width: 32px;
+}
+
+button {
+  background-color: #ecc9cc;
+  color: #819464;
+  font-size: 18px;
+  border-radius: 15px;
+  border: 0;
+  margin-bottom: 100px;
+}
+
+img .logo {
+  text-align: center;
+}
+
+.dance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.packaging {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
