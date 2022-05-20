@@ -78,3 +78,16 @@ a {
   margin-right: auto;
   margin-left: auto;
 }
+/* 
+.about-us {
+  background-image: url(../img/50/50_motifs.svg);
+} */
+
+.contact img {
+  width: 24px;
+}
+
+.about-us {
+  background-image: url(../img/50/50_motifs.svg);
+  background-size: 380px;
+}
