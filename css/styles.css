@@ -394,3 +394,30 @@ audio {
   margin-bottom: 8px;
   margin-top: 0;
 }
+
+.homepage main a {
+  color: white;
+  font-family: "comfortaa";
+  font-size: 18px;
+  border-radius: 15px;
+  border: 0;
+  margin-bottom: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.homepage .fifties-page {
+background-color: #ecc9cc;
+}
+
+.homepage .sixties-page {
+  background-color: #819464;
+}
+
+.homepage .seventies-page {
+  background-color: #6c1d55;
+}
+
+
