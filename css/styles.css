@@ -146,7 +146,7 @@ h1 {
 }
 
 .contact img {
-  width: 24px;
+  width: 36px;
 }
 
 .about-us {
@@ -171,19 +171,19 @@ h1 {
 }
 
 .fifties .contact {
-  border-bottom: 26px solid #ecc9cc;
+  border-bottom: 32px solid #ecc9cc;
   border-top: 55px solid #ecc9cc;
   background-color: #ecc9cc;
 }
 
 .sixties .contact {
-  border-bottom: 26px solid #bfa899;
+  border-bottom: 32px solid #bfa899;
   border-top: 55px solid #bfa899;
   background-color: #bfa899;
 }
 
 .seventies .contact {
-  border-bottom: 26px solid #dfa579;
+  border-bottom: 32px solid #dfa579;
   border-top: 55px solid #dfa579;
   background-color: #dfa579;
 }
@@ -193,10 +193,10 @@ h1 {
 }
 
 .about-us h2 {
-    margin-bottom: 60px;
-    margin-top: 0;
-    font-size: 36px;
-    font-weight: 100;
+  margin-bottom: 60px;
+  margin-top: 0;
+  font-size: 36px;
+  font-weight: 100;
 }
 
 .about-us ul {
@@ -377,7 +377,7 @@ audio {
 .homepage header {
   background-image: url(../img/main_header.svg);
   background-size: 380px;
-  padding-bottom: 57px;
+  padding-bottom: 37px;
 }
 
 .homepage h1 {
@@ -436,4 +436,57 @@ font-family: "rockabilly";
   color: white;
   margin: 0;
   margin-top: 60px;
+}
+
+.homepage .edition-shops .edition {
+  padding-top: 60px;
+}
+
+.homepage .edition-shops .shops {
+  margin-top: 60px;
+}
+
+.homepage .edition-shops ul {
+  margin-bottom: 100px;
+}
+
+.homepage .edition-shops {
+  background-image: url(../img/main_motifs.svg);
+  background-size: 380px;
+}
+
+.homepage ul {
+  font-size: 18px;
+  text-align: justify;
+  padding-left: 60px;
+  line-height: 2em;
+  color: #ffffff;
+  font-family: "comfortaa";
+}
+
+.homepage .contact {
+  border-bottom: 32px solid #ffffff;
+  border-top: 55px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.homepage .contact h2 {
+  color: #8d8079;
+}
+
+
+.homepage .contact p {
+  color: #8d8079;
+}
+
+.homepage .logo {
+  width: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.homepage .contact h2 {
+  margin-top: 0;
+  margin-bottom: 40px;
 }
