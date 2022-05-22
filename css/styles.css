@@ -369,3 +369,24 @@ button {
 audio {
   max-height: 30px;
 }
+
+.homepage {
+  background-color: #8d8079;
+}
+
+.homepage header {
+  background-image: url(../img/main_header.svg);
+  background-size: 380px;
+  padding-bottom: 57px;
+}
+
+.homepage h1 {
+  padding-top: 120px;
+  margin: 0;
+}
+
+.homepage button {
+  background-color: #8d8079;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
