@@ -169,16 +169,18 @@ button {
   border-radius: 15px;
   border: 0;
   margin-bottom: 100px;
-}
-
-img .logo {
-  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .dance {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 38px;
+  margin-right: 38px;
 }
 
 .packaging {
