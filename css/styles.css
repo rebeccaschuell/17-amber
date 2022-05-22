@@ -46,6 +46,11 @@ body {
   color: white;
 }
 
+.seventies {
+  background-color: #6c1d55;
+  color: white;
+}
+
 .logo {
   margin: 5px;
 }
@@ -67,6 +72,12 @@ body {
   border-bottom: 55px solid #bfa899;
 }
 
+.seventies .site-header {
+  background-color: #dfa579;
+  border-top: 40px solid #dfa579;
+  border-bottom: 55px solid #dfa579;
+}
+
 img {
   width: 80px;
   margin: 0;
@@ -75,16 +86,19 @@ img {
 nav {
   font-family: "comfortaa";
   font-size: 18px;
+  text-decoration: none;
 }
 
 .fifties nav {
   color: #819464;
-  text-decoration: none;
 }
 
 .sixties nav {
   color: #462e1e;
-  text-decoration: none;
+}
+
+.seventies nav {
+  color: #6c1d55;
 }
 
 a {
@@ -107,6 +121,11 @@ h1 {
   color: #83583b;
 }
 
+.seventies h1 {
+  font-family: "lovadelic";
+  color: #c16920;
+}
+
 .main-packaging {
   width: 275px;
   display: block;
@@ -120,6 +139,10 @@ h1 {
 
 .sixties .main-packaging {
   filter: drop-shadow(20px 5px 0 #83583b);
+}
+
+.seventies .main-packaging {
+  filter: drop-shadow(20px 5px 0 #c16920);
 }
 /* 
 .about-us {
@@ -142,6 +165,10 @@ h1 {
   background-image: url(../img/60/60_motifs.svg);
 }
 
+.seventies .about-us {
+  background-image: url(../img/70/70_motifs.svg);
+}
+
 .contact {
   border-top-left-radius: 65%; 
   border-top-right-radius: 35%;
@@ -157,6 +184,12 @@ h1 {
   border-bottom: 26px solid #bfa899;
   border-top: 55px solid #bfa899;
   background-color: #bfa899;
+}
+
+.seventies .contact {
+  border-bottom: 26px solid #dfa579;
+  border-top: 55px solid #dfa579;
+  background-color: #dfa579;
 }
 
 .about-us {
@@ -198,6 +231,10 @@ h1 {
   color: #462e1e;
 }
 
+.seventies .contact h2 {
+  color: #6c1d55;
+}
+
 .contact p {
   margin: 0;
   font-size: 10px;
@@ -211,7 +248,23 @@ h1 {
   color: #462e1e;
 }
 
+.seventies .contact p {
+  color: #6c1d55;
+}
+
 .fifties .logo {
+  width: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sixties .logo {
+  width: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.seventies .logo {
   width: 100px;
   text-align: center;
   margin-bottom: 20px;
@@ -240,6 +293,10 @@ button {
 
 .sixties button {
   background-color: #83583b;
+}
+
+.seventies button {
+  background-color: #c16920;
 }
 
 .dance {
@@ -277,6 +334,11 @@ button {
   color: #83583b;
 }
 
+.seventies .citation {
+  font-family: "lovadelic";
+  color: #c16920;
+}
+
 .signature {
   font-size: 16px;
   letter-spacing: 2px;
@@ -292,6 +354,11 @@ button {
 .sixties .signature {
   font-family: "hangier";
   color: #83583b;
+}
+
+.seventies .signature {
+  font-family: "lovadelic";
+  color: #c16920;
 }
 
 .spotify {
