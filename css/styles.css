@@ -406,14 +406,17 @@ audio {
 
 .homepage .fifties-page {
 background-color: #ecc9cc;
+font-family: "rockabilly";
 }
 
 .homepage .sixties-page {
   background-color: #819464;
+  font-family: "hangier";
 }
 
 .homepage .seventies-page {
   background-color: #6c1d55;
+  font-family: "lovadelic";
 }
 
 .visit-page {
