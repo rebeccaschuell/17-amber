@@ -134,20 +134,16 @@ h1 {
 }
 
 .fifties .main-packaging {
-  filter: drop-shadow(20px 5px 0 #ecc9cc);
+  filter: drop-shadow(20px 0 0 #ecc9cc);
 }
 
 .sixties .main-packaging {
-  filter: drop-shadow(20px 5px 0 #83583b);
+  filter: drop-shadow(20px 0 0 #83583b);
 }
 
 .seventies .main-packaging {
-  filter: drop-shadow(20px 5px 0 #c16920);
+  filter: drop-shadow(20px 0 0 #c16920);
 }
-/* 
-.about-us {
-  background-image: url(../img/50/50_motifs.svg);
-} */
 
 .contact img {
   width: 24px;
@@ -361,7 +357,7 @@ button {
   color: #c16920;
 }
 
-.spotify {
+.youtube {
   max-width: 100px;
   padding-bottom: 100px;
 }
