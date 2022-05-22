@@ -145,10 +145,6 @@ h1 {
   filter: drop-shadow(20px 0 0 #c16920);
 }
 
-.homepage .main-packaging {
-  filter: drop-shadow(20px 0 0 #ffffff);
-}
-
 .contact img {
   width: 24px;
 }
@@ -420,4 +416,21 @@ background-color: #ecc9cc;
   background-color: #6c1d55;
 }
 
+.visit-page {
+  width: 230px;
+}
 
+.homepage .visit-page {
+  filter: drop-shadow(15px 0 0 #ffffff);
+  padding-bottom: 8px;
+  padding-top: 60px;
+}
+
+.homepage h2 {
+  font-family: "comfortaa";
+  font-weight: 100;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  margin-top: 60px;
+}
