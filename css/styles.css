@@ -29,11 +29,6 @@ body {
   text-align: center;
 }
 
-main {
-  margin-left: 38px;
-  margin-right: 38px;
-}
-
 .fifties {
   background-color: #819464;
   color: white;
@@ -106,6 +101,15 @@ a {
   margin: 0;
 }
 
+.about-us h2 {
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.about-us ul {
+  margin-bottom: 120px;
+}
+
 .contact img {
   margin-bottom: 100px;
 }
@@ -158,4 +162,6 @@ img .logo {
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 100px;
+  margin-left: 38px;
+  margin-right: 38px;
 }
