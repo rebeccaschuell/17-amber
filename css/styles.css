@@ -19,6 +19,13 @@
   font-display: fallback;
 }
 
+@font-face {
+  font-family: "comfortaa";
+  src: url('../fonts/Comfortaa-Regular.woff2') format('woff2')
+  url('../fonts/Comfortaa-Regular.woff') format('woff');
+  font-display: fallback;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -49,6 +56,11 @@ body {
 .fifties img {
   width: 80px;
   margin: 0;
+}
+
+nav {
+  font-family: "comfortaa";
+  font-size: 18px;
 }
 
 .fifties nav {
@@ -101,13 +113,24 @@ a {
   margin: 0;
 }
 
+.about-us {
+  font-family: "comfortaa";
+}
+
 .about-us h2 {
     margin-bottom: 60px;
     margin-top: 0;
+    font-size: 36px;
+    font-weight: 100;
 }
 
 .about-us ul {
   margin-bottom: 120px;
+  font-size: 18px;
+}
+
+.contact {
+  font-family: "comfortaa";
 }
 
 .contact img {
@@ -119,6 +142,7 @@ a {
   margin-bottom: 40px;
   color: #819464;
   font-size: 36px;
+  font-weight: 100;
 }
 
 .contact p {
@@ -140,6 +164,7 @@ a {
 button {
   background-color: #ecc9cc;
   color: #819464;
+  font-family: "comfortaa";
   font-size: 18px;
   border-radius: 15px;
   border: 0;
@@ -164,4 +189,18 @@ img .logo {
   margin-bottom: 100px;
   margin-left: 38px;
   margin-right: 38px;
+}
+
+.fifties .citation {
+  font-family: "rockabilly";
+  font-size: 24px;
+  color: #ecc9cc;
+  letter-spacing: 2px;
+}
+
+.signature {
+  font-family: "rockabilly";
+  font-size: 16px;
+  color: #ecc9cc;
+  letter-spacing: 2px;
 }
