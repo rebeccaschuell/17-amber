@@ -202,6 +202,9 @@ h1 {
 .about-us ul {
   margin-bottom: 120px;
   font-size: 18px;
+  text-align: justify;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .contact {
