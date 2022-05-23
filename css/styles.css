@@ -216,7 +216,7 @@ h1 {
 }
 
 .contact img {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .contact h2 {
@@ -548,6 +548,7 @@ font-family: "rockabilly";
   margin-left: 38px;
   margin-right: 38px;
   margin-bottom: 100px;
+  filter: drop-shadow(8px 0 0 #ffffff);
 }
 
 h2 {
