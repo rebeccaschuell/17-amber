@@ -18,13 +18,13 @@
   url('../fonts/Lovadelic-Regular.woff') format('woff');
   font-display: fallback;
 }
-
+/* 
 @font-face {
-  font-family: "comfortaa";
-  src: url('../fonts/Comfortaa-Regular.woff2') format('woff2')
-  url('../fonts/Comfortaa-Regular.woff') format('woff');
+  font-family: "margindemo";
+  src: url('../fonts/MarginDEMO.woff2') format('woff2')
+  url('../fonts/MarginDEMO.woff') format('woff');
   font-display: fallback;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -487,10 +487,12 @@ font-family: "rockabilly";
 
 .homepage .edition-shops .edition {
   padding-top: 60px;
+  margin-bottom: 20px;
 }
 
 .homepage .edition-shops .shops {
   margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .homepage .edition-shops ul {
@@ -555,4 +557,9 @@ h2 {
   font-family: "comfortaa";
   font-weight: 100;
   font-size: 36px;
+  margin-bottom: 60px;
 }
+
+/* div .other-products a .discover img {
+  margin-bottom: 0;
+} */
