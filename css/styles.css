@@ -34,25 +34,26 @@ body {
   max-width: 380px;
   margin: auto;
   text-align: center;
+  color: white;
 }
 
 .fifties {
   background-color: #819464;
-  color: white;
 }
 
 .sixties {
   background-color: #462e1e;
-  color: white;
 }
 
 .seventies {
   background-color: #6c1d55;
-  color: white;
+}
+
+.homepage {
+  background-color: #8d8079;
 }
 
 .logo {
-  margin: 5px;
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -80,9 +81,14 @@ body {
   border-bottom: 55px solid #dfa579;
 }
 
+.homepage header {
+  background-image: url(../img/main_header.svg);
+  background-size: 380px;
+  padding-bottom: 32px;
+}
+
 img {
   width: 80px;
-  margin: 0;
 }
 
 nav {
@@ -109,23 +115,40 @@ a {
   padding-bottom: 55px;
 }
 
+.homepage header a {
+  background-color: #8d8079;
+  color: white;
+  font-family: "comfortaa";
+  font-size: 18px;
+  border: 0;
+  border-radius: 15px;
+  padding: 4px 12px;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
 h1 {
   font-size: 80px;
 }
 
 .fifties h1 {
-  font-family: "rockabilly";
   color: #ecc9cc;
+  font-family: "rockabilly";
 }
 
 .sixties h1 {
-  font-family: "hangier";
   color: #83583b;
+  font-family: "hangier";
 }
 
 .seventies h1 {
-  font-family: "lovadelic";
   color: #c16920;
+  font-family: "lovadelic";
+}
+
+.homepage h1 {
+  padding-top: 100px;
+  margin: 0;
 }
 
 .main-packaging {
@@ -147,11 +170,54 @@ h1 {
   filter: drop-shadow(20px 0 0 #c16920);
 }
 
+.homepage h2 {
+  font-family: "comfortaa";
+  font-weight: 100;
+  font-size: 36px;
+  margin: 0;
+  margin-top: 60px;
+}
+
+.homepage .visit-page {
+  width: 230px;
+  filter: drop-shadow(15px 0 0 #ffffff);
+  padding-bottom: 8px;
+  padding-top: 60px;
+}
+
+.homepage main a {
+  color: #ffffff;
+  font-family: "comfortaa";
+  font-size: 18px;
+  border-radius: 15px;
+  border: 0;
+  margin-bottom: 100px;
+  padding: 4px 12px;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.homepage .fifties-page {
+background-color: #819464;
+font-family: "rockabilly";
+}
+
+.homepage .sixties-page {
+  background-color: #462e1e;
+  font-family: "hangier";
+}
+
+.homepage .seventies-page {
+  background-color: #6c1d55;
+  font-family: "lovadelic";
+}
+
 .contact img {
   width: 32px;
 }
 
 .about-us {
+  font-family: "comfortaa";
   background-size: 380px;
 }
 
@@ -168,6 +234,7 @@ h1 {
 }
 
 .contact {
+  font-family: "comfortaa";
   border-top-left-radius: 65%; 
   border-top-right-radius: 35%;
 }
@@ -190,8 +257,10 @@ h1 {
   background-color: #dfa579;
 }
 
-.about-us {
-  font-family: "comfortaa";
+.homepage .contact {
+  border-bottom: 32px solid #ffffff;
+  border-top: 55px solid #ffffff;
+  background-color: #ffffff;
 }
 
 .about-us h2 {
@@ -209,10 +278,6 @@ h1 {
   padding-left: 40px;
   padding-right: 40px;
   line-height: 2em;
-}
-
-.contact {
-  font-family: "comfortaa";
 }
 
 .contact img {
@@ -238,6 +303,12 @@ h1 {
   color: #6c1d55;
 }
 
+.homepage .contact h2 {
+  color: #8d8079;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
 .contact p {
   margin: 0;
   font-size: 10px;
@@ -255,6 +326,10 @@ h1 {
   color: #6c1d55;
 }
 
+.homepage .contact p {
+  color: #8d8079;
+}
+
 .fifties .logo {
   width: 100px;
   text-align: center;
@@ -267,10 +342,7 @@ h1 {
   font-size: 18px;
   border-radius: 15px;
   border: 0;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 4px 12px;
   margin-bottom: 8px;
   margin-top: 0;
 }
@@ -287,12 +359,6 @@ h1 {
   background-color: #c16920;
 }
 
-.sixties .logo {
-  width: 100px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 .seventies .logo {
   width: 100px;
   text-align: center;
@@ -301,31 +367,6 @@ h1 {
 
 .contact-logo {
   max-width: 32px;
-}
-
-button {
-  color: white;
-  font-family: "comfortaa";
-  font-size: 18px;
-  border-radius: 15px;
-  border: 0;
-  margin-bottom: 100px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.fifties button {
-  background-color: #ecc9cc;
-}
-
-.sixties button {
-  background-color: #83583b;
-}
-
-.seventies button {
-  background-color: #c16920;
 }
 
 .dance {
@@ -366,17 +407,23 @@ button {
   color: #83583b;
 }
 
+.sixties .logo {
+  width: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .seventies .citation {
   font-family: "lovadelic";
   color: #c16920;
 }
 
 .signature {
+  text-align: right;
   font-size: 16px;
   letter-spacing: 2px;
   margin-top: 18px;
   margin-bottom: 8px;
-  text-align: right;
   padding-left: 45px;
   padding-right: 45px;
 }
@@ -402,89 +449,6 @@ button {
   padding-left: 200px;
 }
 
-audio {
-  max-height: 30px;
-}
-
-.homepage {
-  background-color: #8d8079;
-}
-
-.homepage header {
-  background-image: url(../img/main_header.svg);
-  background-size: 380px;
-  padding-bottom: 32px;
-}
-
-.homepage h1 {
-  padding-top: 100px;
-  margin: 0;
-}
-
-.homepage header a {
-  background-color: #8d8079;
-  color: white;
-  font-family: "comfortaa";
-  font-size: 18px;
-  border-radius: 15px;
-  border: 0;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-bottom: 8px;
-  margin-top: 0;
-}
-
-.homepage main a {
-  color: #ffffff;
-  font-family: "comfortaa";
-  font-size: 18px;
-  border-radius: 15px;
-  border: 0;
-  margin-bottom: 100px;
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-bottom: 8px;
-  margin-top: 0;
-}
-
-.homepage .fifties-page {
-background-color: #819464;
-font-family: "rockabilly";
-}
-
-.homepage .sixties-page {
-  background-color: #462e1e;
-  font-family: "hangier";
-}
-
-.homepage .seventies-page {
-  background-color: #6c1d55;
-  font-family: "lovadelic";
-}
-
-.visit-page {
-  width: 230px;
-}
-
-.homepage .visit-page {
-  filter: drop-shadow(15px 0 0 #ffffff);
-  padding-bottom: 8px;
-  padding-top: 60px;
-}
-
-.homepage h2 {
-  font-family: "comfortaa";
-  font-weight: 100;
-  font-size: 36px;
-  color: white;
-  margin: 0;
-  margin-top: 60px;
-}
-
 .homepage .edition-shops .edition {
   padding-top: 60px;
   margin-bottom: 20px;
@@ -493,15 +457,6 @@ font-family: "rockabilly";
 .homepage .edition-shops .shops {
   margin-top: 60px;
   margin-bottom: 20px;
-}
-
-.homepage .edition-shops ul {
-  margin-bottom: 100px;
-}
-
-.homepage .edition-shops {
-  background-image: url(../img/main_motifs.svg);
-  background-size: 380px;
 }
 
 .homepage ul {
@@ -513,30 +468,13 @@ font-family: "rockabilly";
   font-family: "comfortaa";
 }
 
-.homepage .contact {
-  border-bottom: 32px solid #ffffff;
-  border-top: 55px solid #ffffff;
-  background-color: #ffffff;
+.homepage .edition-shops ul {
+  margin-bottom: 100px;
 }
 
-.homepage .contact h2 {
-  color: #8d8079;
-}
-
-.homepage .contact p {
-  color: #8d8079;
-}
-
-.homepage .logo {
-  width: 100px;
-  text-align: center;
-  margin: 0;
-  padding-bottom: 20px;
-}
-
-.homepage .contact h2 {
-  margin-top: 0;
-  margin-bottom: 40px;
+.homepage .edition-shops {
+  background-image: url(../img/main_motifs.svg);
+  background-size: 380px;
 }
 
 .other-products img {
@@ -558,6 +496,13 @@ h2 {
   font-weight: 100;
   font-size: 36px;
   margin-bottom: 60px;
+}
+
+.homepage .logo {
+  width: 100px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 /* div .other-products a .discover img {
