@@ -12,26 +12,6 @@
   font-display: fallback;
 }
 
-/* @font-face {
-  font-family: "anthela";
-  src: url('../font/Anthela.woff2') format('woff2')
-  url('../font/Anthela.woff') format('woff');
-  font-display: fallback;
-} */
-/* 
-@font-face {
-  font-family: "margindemo";
-  src: url('../fonts/MarginDEMO.woff2') format('woff2')
-  url('../fonts/MarginDEMO.woff') format('woff');
-  font-display: fallback;
-} */
-/* @font-face {
-  font-family: "lovadelic";
-  src: url('../fonts/Lovadelic-Regular.woff2') format('woff2')
-  url('../fonts/Lovadelic-Regular.woff') format('woff');
-  font-display: fallback;
-} */
-
 html {
   scroll-behavior: smooth;
 }
