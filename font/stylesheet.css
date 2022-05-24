@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Anthela';
+    src: url('Anthela.woff2') format('woff2'),
+        url('Anthela.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Bold.woff2') format('woff2'),
+        url('Comfortaa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Regular.woff2') format('woff2'),
+        url('Comfortaa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Regular.woff2') format('woff2'),
+        url('Comfortaa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Light.woff2') format('woff2'),
+        url('Comfortaa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Light.woff2') format('woff2'),
+        url('Comfortaa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('Comfortaa-Bold.woff2') format('woff2'),
+        url('Comfortaa-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hangier';
+    src: url('HangierRegular.woff2') format('woff2'),
+        url('HangierRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hangier';
+    src: url('HangierRegular.woff2') format('woff2'),
+        url('HangierRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovadelic-Expand';
+    src: url('Lovadelic-Expand.woff2') format('woff2'),
+        url('Lovadelic-Expand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovadelic';
+    src: url('Lovadelic-Regular.woff2') format('woff2'),
+        url('Lovadelic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovadelic-Expand';
+    src: url('Lovadelic-Expand.woff2') format('woff2'),
+        url('Lovadelic-Expand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovadelic';
+    src: url('Lovadelic-Regular.woff2') format('woff2'),
+        url('Lovadelic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rockabilly';
+    src: url('Rockabilly.woff2') format('woff2'),
+        url('Rockabilly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rockabilly';
+    src: url('Rockabilly.woff2') format('woff2'),
+        url('Rockabilly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

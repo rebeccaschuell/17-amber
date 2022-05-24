@@ -12,17 +12,23 @@
   font-display: fallback;
 }
 
-@font-face {
-  font-family: "lovadelic";
-  src: url('../fonts/Lovadelic-Regular.woff2') format('woff2')
-  url('../fonts/Lovadelic-Regular.woff') format('woff');
+/* @font-face {
+  font-family: "anthela";
+  src: url('../font/Anthela.woff2') format('woff2')
+  url('../font/Anthela.woff') format('woff');
   font-display: fallback;
-}
+} */
 /* 
 @font-face {
   font-family: "margindemo";
   src: url('../fonts/MarginDEMO.woff2') format('woff2')
   url('../fonts/MarginDEMO.woff') format('woff');
+  font-display: fallback;
+} */
+/* @font-face {
+  font-family: "lovadelic";
+  src: url('../fonts/Lovadelic-Regular.woff2') format('woff2')
+  url('../fonts/Lovadelic-Regular.woff') format('woff');
   font-display: fallback;
 } */
 
@@ -143,7 +149,7 @@ h1 {
 
 .seventies h1 {
   color: #c16920;
-  font-family: "lovadelic";
+  font-family: 'Yesteryear', cursive;
 }
 
 .homepage h1 {
@@ -209,7 +215,7 @@ font-family: "rockabilly";
 
 .homepage .seventies-page {
   background-color: #6c1d55;
-  font-family: "lovadelic";
+  font-family: 'Yesteryear', cursive;
 }
 
 .contact img {
@@ -362,7 +368,8 @@ font-family: "rockabilly";
 .seventies .logo {
   width: 100px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .contact-logo {
@@ -414,7 +421,7 @@ font-family: "rockabilly";
 }
 
 .seventies .citation {
-  font-family: "lovadelic";
+  font-family: 'Yesteryear', cursive;
   color: #c16920;
 }
 
@@ -439,7 +446,7 @@ font-family: "rockabilly";
 }
 
 .seventies .signature {
-  font-family: "lovadelic";
+  font-family: 'Yesteryear', cursive;
   color: #c16920;
 }
 
@@ -491,6 +498,10 @@ font-family: "rockabilly";
   filter: drop-shadow(8px 0 0 #ffffff);
 }
 
+.other-products a {
+  padding-bottom: 0;
+}
+
 h2 {
   font-family: "comfortaa";
   font-weight: 100;
@@ -505,6 +516,6 @@ h2 {
   padding-bottom: 20px;
 }
 
-/* div .other-products a .discover img {
-  margin-bottom: 0;
-} */
+.discover {
+  padding-bottom: 0;
+}
